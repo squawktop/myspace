@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-
-  </div>
+  <ContentBase>首页</ContentBase>
 </template>
 
 <script>
 
-
-
+import ContentBase from '@/components/ContentBase'
 export default {
   name: 'HomeView',
   components: {
-
+    ContentBase,
   }
 }
 </script>
+
+<style scoped>
+</style>
